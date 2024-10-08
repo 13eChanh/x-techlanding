@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'HelveticaMC';
+    src: url('/path/to/your/font/HelveticaMC.woff2') format('woff2'),
+         url('/path/to/your/font/HelveticaMC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* Desktop */
+@media only screen and (min-width: 64em) {
+    
+}
